@@ -1,0 +1,264 @@
+
+.fade-in-image {
+  animation: fadeIn 3s ease-in-out;
+}
+
+.fade-in-logo {
+  animation: fadeIn 5s ease-in-out;
+}
+
+.row{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* Ensure you add the font family to the class */
+.kalam-font {
+  font-family: 'Kalam', sans-serif;
+  font-size: 4rem; /* Adjust as needed */
+  color: white;
+  line-height: 1.2;
+  position: relative;
+  display: inline-block;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.space{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  align-items: center;
+  z-index: 10;
+  opacity:0.9;
+  margin-right: auto;
+}
+.timer1{
+  margin-top:10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: 'digital-clock-font';
+  margin-bottom: 20px;
+  margin-right: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* Fade-in Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.childinputwrap{
+  display: flex;
+}
+
+.fade-in-title {
+  animation: fadeIn 2s ease-out;
+}
+
+/* Additional CSS for Rules Page */
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.home-image {
+  max-width: 140%;
+  max-height: 0%;
+  object-fit: cover;
+  transform: rotate(0deg); /* Can be adjusted */
+  /* Additional properties for cropping, flipping */
+  clip-path: inset(0 0 20 0) /* Adjust as needed */
+}
+
+.login-page {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.login-image {
+  flex: 1;
+  background: url('../images/forlogin.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  min-height: 400px; /* Adjust based on image height */
+}
+
+.login-form {
+  flex: 1;
+  padding: 10px;
+  background: black;
+}
+
+h2 {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+input {
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  /* color: #fff; */
+}
+
+.button {
+  background: black;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 5px;
+  margin-top: -60%;
+  border: 2px solid white; /* White border */
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background: #000;
+}
+
+.slide-left-exit-active {
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+/* App.css */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.leader{
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+  scrollbar-width: 1px;
+  scroll-behavior: smooth;
+}
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+.popup-close-button {
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: right;
+  margin: 20px;
+}
+
+
+/* App.css */
+
+.leaderboard-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 67vw;
+}
+
+.leaderboard-button .clock-icon {
+  margin-right: 8px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} 

@@ -1,0 +1,35 @@
+[build]
+  publish = "build"  # Directory to deploy (output of 'npm run build')
+  command = "npm run build"  # Build command
+
+[[redirects]]
+  from = "/api/generate-1/*"  # Proxy path for the first backend URL
+  to = "http://4.207.94.103/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/generate-2/*"  # Proxy path for the second backend URL
+  to = "http://51.136.79.40/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/generate-3/*"  # Proxy path for the third backend URL
+  to = "http://4.158.92.231/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/generate-4/*"  # Proxy path for the fourth backend URL
+  to = "http://20.227.103.135/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/generate-5/*"  # Proxy path for the fifth backend URL
+  to = "http://20.239.236.201/:splat"
+  status = 200
+  force = true
+
+

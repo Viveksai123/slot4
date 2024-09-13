@@ -1,0 +1,9 @@
+
+/api/generate-1/*  http://4.207.94.103/:splat  200
+/api/generate-2/*  http://51.136.79.40/:splat  200
+/api/generate-3/*  http://4.158.92.231/:splat  200
+/api/generate-4/*  http://20.227.103.135/:splat  200
+/api/generate-5/*  http://20.239.236.201/:splat  200
+
+
+/*  /index.html  200

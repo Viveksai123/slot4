@@ -1,0 +1,78 @@
+.rules-container {
+    background: url('../images/moon.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Container for the accordion */
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width:800px; /* Control the max-width of the accordion */
+    width: 140%;
+    padding: 20px;
+    margin-left: 600px; /* Adjust if needed to move accordion to the right */
+  }
+  
+  /* Accordion item style */
+  .accordion-item {
+    background: rgba(0, 0, 0, 255); /* Slightly transparent black background */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px; /* Control the width of the accordion items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+  }
+  
+  /* Accordion title style */
+  .accordion-title {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .accordion-number {
+    margin-right: 10px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+  
+  /* Accordion content style */
+  .accordion-content {
+    padding: 15px;
+    display: block;
+  }
+  
+  /* Button styling */
+  .button-container {
+    margin-top: 20px;
+    margin-left: 600px;
+  }
+  
+  .btn2 {
+    background: black;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 2px solid white; /* White border */
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn2:hover {
+    background: #000;
+  }
+  

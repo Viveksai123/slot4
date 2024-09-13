@@ -1,0 +1,111 @@
+/* styles/Leaderboard.css */
+
+.leaderboard-page {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Existing styles... */
+
+.trophy-icon {
+  color: gold;
+  margin-left: 10px; /* Adjust as needed */
+  font-size: 1.2em; /* Adjust size if needed */
+}
+
+  .leaderboard-container {
+    width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    max-height: 100vh; /* Adjust based on your layout */
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+  /* Existing styles... */
+
+.leaderboard-score.first-place {
+  color: yellow;
+}
+
+.leaderboard-score.second-place {
+  color: green;
+}
+
+.leaderboard-score.third-place {
+  color: red;
+}
+
+  h1 {
+    font-size: 2rem;
+    color: #007bff;
+    font-family: playfair display;
+    margin-bottom: 20px;
+  }
+  
+ 
+  
+  .leaderboard-item:last-child {
+    border-bottom: none;
+  }
+  
+  .leaderboard-rank {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .leaderboard-name {
+    flex: 1;
+    text-align: left;
+    color: #fff;
+  }
+  
+  .leaderboard-score {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  @media (max-width: 600px) {
+    .leaderboard-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .leaderboard-rank {
+      margin-bottom: 5px;
+    }
+  
+    .leaderboard-name,
+    .leaderboard-score {
+      font-size: 1rem;
+    }
+  }
+  .leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .leaderboard-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+  
+  
