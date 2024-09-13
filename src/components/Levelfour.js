@@ -27,14 +27,9 @@ const Levelone = ({ username, rollnum, initialScore, timeLeft }) => {
 
   // Array of hash values
   const hashedPasswords = [
-    '0e9a09f4677c3bed46f447c17dc3d0aaabb43ed445104fdafcd487c345b905d7',
-    'bb821ee8e4d9e5b55068e5ecfd87c5eb00f7dbc17181c68fc0f6487bb0b1543a',
-    '19b07f7d24335e563abd1c72d7e5756aed909caae21c3185b49e241db2f81d87',
     '5f0d8b48f63ccd9f617165fef2fa76c36cb0236ce3cc7e12adbb549074ef6366',
+    '6a0cfc026a6d69f06b9a07e0efbebc63741cb5c71fa6148f866a520f99f44ad6',
     '27dd991805bd5e213ffbd3a3f117f7a300aa90e7542d5192a8aad5aa80b14064',
-    '0e9a09f4677c3bed46f447c17dc3d0aaabb43ed445104fdafcd487c345b905d7',
-    'bb821ee8e4d9e5b55068e5ecfd87c5eb00f7dbc17181c68fc0f6487bb0b1543a',
-    '19b07f7d24335e563abd1c72d7e5756aed909caae21c3185b49e241db2f81d87',
     '5f0d8b48f63ccd9f617165fef2fa76c36cb0236ce3cc7e12adbb549074ef6366',
     '27dd991805bd5e213ffbd3a3f117f7a300aa90e7542d5192a8aad5aa80b14064'
   ];

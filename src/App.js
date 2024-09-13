@@ -73,7 +73,7 @@ function Layout() {
       setTimerRunning(false);
       clearLocalStorage();
       if (timer) clearInterval(timer);
-      navigate('/timeup'); // Redirect to the "Time Up" page
+      navigate('/timeup'); 
     }
     return () => clearInterval(timer);
   }, [timerRunning, timeLeft, navigate]);
@@ -263,7 +263,7 @@ function Layout() {
           path="/timeup" 
           element={
             <TimeUpPage 
-              clearLocalStorage={clearLocalStorage} // Pass the clearLocalStorage function to TimeUpPage
+              clearLocalStorage={clearLocalStorage} 
               rollnum={rollnum} 
               username={username} 
             />

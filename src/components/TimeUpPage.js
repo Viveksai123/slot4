@@ -33,7 +33,7 @@ function TimeUpPage({ username, rollnum }) { // Corrected the prop to username
     };
   
     fetchUserScore();
-  }, [rollnum]); // Re-run the effect if rollnum changes
+  }, [rollnum]); 
   
   const handleRedirectToSecret = () => {
     navigate('/');
